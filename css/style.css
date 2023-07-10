@@ -45,7 +45,7 @@ header{
     height: 850px;
     padding: 50px 0px 0 0px;
 }
-.banner{
+.banner, .offers-contents, .instragram-items{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -72,13 +72,16 @@ header{
     padding: 20px 43px;
     border: none;
 }
+.banner-image {
+    
+}
 .banner-image img{
-    width: 635px;
     height: 850px;
+    text-align: right;
 }
 /* features css */
 .features{
-    padding: 150px 0px 100px 0px;
+    padding: 150px 0px 180px 0px;
 }
 .faetures-top{}
 .features-items{
@@ -117,4 +120,45 @@ header{
     line-height: 35px;
     text-decoration-line: underline;
     padding-top: 28px;
+}
+/* offers css */
+.offers{
+    padding: 100px 0px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.offers-content{
+    text-align: center;
+}
+.offers-content span, .all-top-content span{
+    color: #E55473;
+}
+.offers-content p{
+    width: 594px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.lastest-deals{
+    background-image: url("../images/Rectangle\ 9.png");
+    padding: 100px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* instragram css */
+.instragram-posts{
+    padding: 100px 0px;
+}
+
+
+
+
+
+/* footer css */
+footer{
+    background: #111010;
+    padding: 100px 0px;
+}
+.footer-content p{
+    color: #FFF;
 }
