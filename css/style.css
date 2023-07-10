@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Lato;
 }
 h1,h2,h3,h4,h5,h6,p{
     padding: 0;
@@ -18,4 +19,46 @@ p{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
+    line-height: 30px;
+}
+header{
+    background: rgba(229, 84, 115, 0.10);
+    height: 850px;
+    padding: 50px 0px 0 0px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.banner-content{}
+.banner-content h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    width: 620px;
+}
+.banner-content p{
+    text-align: left;
+    width: 580px;
+    padding: 32px 0px;
+}
+.shop-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+}
+.banner-image{}
+.banner-image img{
+    width: 635px;
+    height: 850px;
 }
