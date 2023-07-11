@@ -38,7 +38,6 @@ p{
     margin: 0 auto;
     padding: 16px 0px 44px 0px;
 } 
-
 /* header css */
 header{
     background: rgba(229, 84, 115, 0.10);
@@ -82,7 +81,7 @@ header{
     padding: 100px 0px;
 }
 .faetures-top{}
-.features-content{
+.features-content, .wrapper-items{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,17 +89,15 @@ header{
 }
 .feature-img{
     background-color: #272727;
-    width: 330px;
+    width: 320px;
     height: 470px;
     position: relative;
     padding: 20px 20px;
     border-radius: 300px 300px 0px 0px;
-
 }
 .feature-img img{
     position: absolute;
     bottom: 0;
-    
 }
 .f-img-1{
     background: rgba(167, 33, 98, 0.15);
@@ -123,6 +120,25 @@ header{
     padding-top: 20px;
     text-align: center;
 }
+/* wrapper section css */
+.wrapper{
+    padding-bottom: 100px;
+}
+.wraper-content{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px 0px;
+}
+.wraper-sinlge{
+    width: 250px;
+    margin: 0 auto;
+}
+.wrapper-text{
+    text-align: center;
+}
+.wrapper-text p{
+    padding-top: 15px;
+}
 /* offers css */
 .offers{
     padding: 100px 0px;
@@ -140,7 +156,6 @@ header{
     margin: 0 auto;
     padding: 30px 0px;
 }
-
 .lastest-deals{
     background-image: url("../images/Rectangle\ 9.png");
     padding: 100px 0px;
@@ -155,14 +170,13 @@ header{
     justify-content: space-around;
     gap: 30px;
 }
-
 .instragram-item img{
     width: 100%
 }
 /* deal css */
 .input-email{
     border: none;
-    padding: 20px 350px 20px 20px;
+    24px 350px 21px 20px;
     font-size: 16px;
     border-radius: 5px;
     margin-right: 10px;
